@@ -1,0 +1,42 @@
+.portfolio {
+  padding-top: 8rem;
+}
+
+.box_container {
+  margin-bottom: 2rem;
+}
+
+.box_container h4 {
+  font-size: 3rem;
+}
+
+.box_container h5 {
+  font-size: 2.5rem;
+  color: var(--white);
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.col_1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.tab_btn button {
+  background: #171f38;
+  color: var(--text-color);
+  font-size: 2rem;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.tab_btn button:hover {
+  color: var(--green);
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  gap: 2rem;
+}

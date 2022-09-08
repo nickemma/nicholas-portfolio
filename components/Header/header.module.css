@@ -1,0 +1,51 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-color);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.logo h2 {
+  font-size: 2.5rem;
+  color: var(--white);
+  font-weight: 400;
+}
+
+.logo span {
+  color: var(--green);
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav_menu li {
+  margin-right: 2rem;
+}
+
+.nav_menu a {
+  font-size: 2.3rem;
+  color: var(--text-color);
+}
+
+.nav_menu li:nth-child(1) a {
+  color: var(--green);
+}
+
+.nav_menu a:hover {
+  color: var(--green);
+}
+
+.nav_icon i {
+  font-size: 1.8rem;
+  color: var(--green);
+  cursor: pointer;
+}

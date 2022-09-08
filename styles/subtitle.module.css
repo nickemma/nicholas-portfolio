@@ -1,0 +1,17 @@
+.section_subtitle {
+  color: #01d293 !important;
+  font-weight: 400;
+  margin-left: 40px;
+  position: relative;
+}
+
+.section_subtitle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  width: 30px;
+  height: 1px;
+  background: #01d293;
+  color: #01d293;
+}

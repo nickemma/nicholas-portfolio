@@ -45,26 +45,52 @@
   transform: translateY(-20px);
 }
 
-.content {
-  flex: 1 1 35rem;
+.content_service {
+  flex: 1 1 45rem;
   margin-left: 2rem;
 }
 
-.content h4 {
+.content_service h4 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
 }
 
-.content h3 {
+.content_service h3 {
   color: var(--white);
   font-size: 3rem;
   margin-bottom: 10px;
   font-weight: 700;
 }
 
-.content p {
+.content_service p {
   font-size: 1.8rem;
   color: var(--text-color);
   width: 65rem;
   line-height: 30px;
+}
+
+/* ============ mobile ============ */
+
+@media (max-width: 850px) {
+  .box_container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .box_container {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .content_service h4 {
+    font-size: 3rem;
+  }
+
+  .content_service h3 {
+    font-size: 2rem;
+  }
+
+  .content_service p {
+    font-size: 1.5rem;
+    width: 350px;
+  }
 }

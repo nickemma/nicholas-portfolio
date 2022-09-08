@@ -28,6 +28,7 @@ html {
 
 body {
   background: var(--bg-color);
+  overflow-x: hidden;
 }
 
 img {
@@ -37,4 +38,18 @@ img {
 section {
   padding: 3rem 9%;
 }
-/* btn - #171f38 - transparent */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}

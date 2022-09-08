@@ -26,7 +26,7 @@ const Services = () => {
             />
           </div>
         </div>
-        <div className={`${classes.content}`}>
+        <div className={`${classes.content_service}`}>
           <SectionSubtitle subtitle="What I do" />
           <h3>Better Design,</h3>
           <h3>Better Experience</h3>

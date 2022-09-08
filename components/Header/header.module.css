@@ -11,6 +11,17 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   z-index: 999;
 }
+.mobile_menu {
+  font-size: 3rem;
+  color: var(--white);
+  font-weight: 500;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile_menu:hover {
+  color: var(--green);
+}
 
 .logo h2 {
   font-size: 2.5rem;
@@ -48,4 +59,35 @@
   font-size: 1.8rem;
   color: var(--green);
   cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .header {
+    padding: 2rem;
+  }
+
+  .mobile_menu {
+    display: inline-block;
+  }
+
+  .nav_menu {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #171f3897;
+    flex-direction: column;
+    /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
+    min-height: 70vh;
+  }
+  .nav_menu.active {
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+  }
+  .nav_menu a {
+    display: block;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+  }
 }

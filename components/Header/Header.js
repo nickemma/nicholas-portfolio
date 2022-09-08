@@ -42,6 +42,9 @@ const Header = () => {
           <i className="ri-phone-line"> +2349163198026</i>
         </div>
       </ul>
+      <span className={`${classes.mobile_menu}`}>
+        <i className="ri-menu-line"></i>
+      </span>
     </header>
   );
 };

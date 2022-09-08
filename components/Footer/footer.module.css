@@ -58,3 +58,9 @@
 .copy span {
   color: var(--green);
 }
+
+@media (max-width: 850px) {
+  .credit {
+    display: none;
+  }
+}

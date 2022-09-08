@@ -7,7 +7,7 @@ const PortfolioItem = (props) => {
   const { title, description, img, liveUrl, source, keyword } = props.item;
   return (
     <div className={`${classes.portfolio_item}`}>
-      <div>
+      <div className={`${classes.portfolio_content}`}>
         <h4>{title}</h4>
         <p>{description}</p>
         <div className={`${classes.portfolio_live}`}>

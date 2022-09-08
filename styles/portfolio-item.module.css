@@ -69,3 +69,18 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media (max-width: 850px) {
+  .portfolio_img {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio_img {
+    padding-left: 4rem;
+  }
+  .portfolio_content {
+    text-align: center;
+  }
+}

@@ -1,5 +1,5 @@
 .about {
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 
 .box_container {
@@ -103,6 +103,7 @@
   background: #171f38;
   margin-bottom: 20px;
   border-radius: 5px;
+  width: 280px;
 }
 
 .item img {
@@ -110,6 +111,26 @@
   border-radius: 5px;
 }
 
-.item {
-  width: 280px;
+/*============ mobile ============ */
+
+@media (max-width: 850px) {
+  .box_container {
+    grid-template-columns: 1fr;
+  }
+
+  .content p {
+    font-size: 1.8rem;
+    width: 60rem;
+  }
+}
+@media (max-width: 600px) {
+  .content p {
+    font-size: 2rem;
+    width: 65rem;
+  }
+  .image {
+    margin-right: 30px;
+    width: 200px;
+    gap: 0;
+  }
 }

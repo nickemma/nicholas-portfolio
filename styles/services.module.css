@@ -74,6 +74,11 @@
 @media (max-width: 850px) {
   .box_container {
     flex-direction: column;
+    align-items: flex-start;
+  }
+  .content_service p {
+    font-size: 2rem;
+    width: 400px;
   }
 }
 @media (max-width: 500px) {
@@ -86,11 +91,11 @@
   }
 
   .content_service h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .content_service p {
-    font-size: 1.5rem;
-    width: 350px;
+    font-size: 2rem;
+    width: 400px;
   }
 }

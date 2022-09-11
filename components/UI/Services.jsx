@@ -31,11 +31,8 @@ const Services = () => {
           <h3>Better Design,</h3>
           <h3>Better Experience</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
-            culpa nobis corporis officiis, numquam cupiditate, enim expedita
-            eveniet dolorum, aliquid nesciunt sapiente illo voluptatum! Dolores
-            fuga mollitia atque, placeat minima quibusdam accusantium! Veniam,
-            non distinctio dolorem rerum laboriosam deleniti.
+            I'm Building scalable web applications, Mobile apps and beautiful
+            websites for companies.
           </p>
         </div>
       </div>

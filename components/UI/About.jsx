@@ -18,14 +18,13 @@ const About = () => {
           <h3>I&apos;m here</h3>
           <h3>to help your next project</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            neque asperiores temporibus quo saepe odio, esse labore libero
-            obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-            ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-            cum excepturi beatae.
+            I'm Nicholas Emmanuel a software developer specialized in different
+            technologies, Building web applications, Mobile apps and beautiful
+            websites for companies. Love digging into hard problems, learning
+            new languages and technologies.
           </p>
           <h4>
-            languages <span>frameworks</span> and tools{' '}
+            languages and <span>frameworks</span>
           </h4>
           <div className={`${classes.icon}`}>
             <div className={`${classes.box}`}>
@@ -33,51 +32,25 @@ const About = () => {
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Problem Solving
+                Ruby
               </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Problem Solving
+                Ruby on Rails
               </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Problem Solving
+                ReactJS
               </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Problem Solving
-              </h5>
-            </div>
-            <div className={`${classes.box}`}>
-              <h5>
-                <span className={`${classes.about_icon}`}>
-                  <i className="ri-checkbox-circle-line"></i>
-                </span>
-                Creative Idea
-              </h5>
-              <h5>
-                <span className={`${classes.about_icon}`}>
-                  <i className="ri-checkbox-circle-line"></i>
-                </span>
-                Creative Idea
-              </h5>
-              <h5>
-                <span className={`${classes.about_icon}`}>
-                  <i className="ri-checkbox-circle-line"></i>
-                </span>
-                Creative Idea
-              </h5>
-              <h5>
-                <span className={`${classes.about_icon}`}>
-                  <i className="ri-checkbox-circle-line"></i>
-                </span>
-                Creative Idea
+                Javascript
               </h5>
             </div>
             <div className={`${classes.box}`}>
@@ -85,25 +58,25 @@ const About = () => {
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Creative Idea
+                NextJS
               </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Creative Idea
+                HTML/SCSS
               </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Creative Idea
+                Postgresql
               </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Creative Idea
+                Redux
               </h5>
             </div>
           </div>

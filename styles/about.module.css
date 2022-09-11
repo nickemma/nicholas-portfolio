@@ -22,9 +22,9 @@
 }
 
 .content p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: var(--text-color);
-  width: 65rem;
+  width: 55rem;
   line-height: 30px;
   margin-bottom: 1rem;
 }

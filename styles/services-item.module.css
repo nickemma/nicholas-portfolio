@@ -1,0 +1,29 @@
+.service_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 5px;
+}
+
+.service_item span {
+  margin-right: 10px;
+}
+
+.service_item i {
+  color: var(--green);
+  font-size: 4.5rem;
+}
+
+.service_item h5 {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.service_item:hover h5 {
+  color: black;
+}
+.service_item:hover i {
+  color: black;
+}

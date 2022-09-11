@@ -12,11 +12,15 @@ const PortfolioItem = (props) => {
         <p>{description}</p>
         <div className={`${classes.portfolio_live}`}>
           <button type="button" className={`${classes.portfolio_btn}`}>
-            <Link href={liveUrl}>Live Demo</Link>
+            <Link href={liveUrl}>
+              <a target="_blank">Live Demo</a>
+            </Link>
             <i class="ri-external-link-line"></i>
           </button>
           <button type="button" className={`${classes.portfolio_btn}`}>
-            <Link href={source}>Source Code</Link>
+            <Link href={source}>
+              <a target="_blank">Source Code</a>
+            </Link>
             <i class="ri-github-line"></i>
           </button>
         </div>

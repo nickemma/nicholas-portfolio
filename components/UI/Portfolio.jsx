@@ -5,11 +5,11 @@ import PortfolioItem from './PortfolioItem';
 import portfolioData from '../data/data';
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState('Mobile App');
+  const [filter, setFilter] = useState('Frontend App');
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === 'Mobile App') {
+    if (filter === 'Frontend App') {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -17,7 +17,14 @@ const Portfolio = () => {
       setData(filteredData);
     }
 
-    if (filter === 'Web Design') {
+    if (filter === 'Backend App') {
+      const filteredData = portfolioData.filter(
+        (item) => item.category === filter
+      );
+
+      setData(filteredData);
+    }
+    if (filter === 'Full Stack App') {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -37,16 +44,22 @@ const Portfolio = () => {
       <div className={`${classes.col_1}`}>
         <div className={`${classes.tab_btn}`}>
           <button
-            className={` ${filter === 'Mobile App' ? active : ''}`}
-            onClick={() => setFilter('Mobile App')}
+            className={` ${filter === 'Frontend App' ? active : ''}`}
+            onClick={() => setFilter('Frontend App')}
           >
-            Mobile App
+            Frontend App
           </button>
           <button
-            className={`${filter === 'Web Design' ? active : ''}`}
-            onClick={() => setFilter('Web Design')}
+            className={`${filter === 'Backend App' ? active : ''}`}
+            onClick={() => setFilter('Backend App')}
           >
-            Web Design
+            Backend App
+          </button>
+          <button
+            className={`${filter === 'Full Stack App' ? active : ''}`}
+            onClick={() => setFilter('Full Stack App')}
+          >
+            Full Stack App
           </button>
         </div>
       </div>

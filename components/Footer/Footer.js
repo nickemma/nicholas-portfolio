@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className={`${classes.credit}`}>
           <h3>
-            created by <span>techie</span>Emma
+            created by <span>Techie</span>Emma
           </h3>
         </div>
       </div>

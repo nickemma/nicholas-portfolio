@@ -26,7 +26,7 @@
 .tab_btn button {
   background: #171f38;
   color: var(--text-color);
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-left: 20px;
   cursor: pointer;
 }

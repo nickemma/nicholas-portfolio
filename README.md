@@ -16,7 +16,7 @@ This is my personal portfolio where I showcase some of my projects I built so fa
 
 ## Click here for live version
 
-- live demo: [Live Link]()
+- live demo: [Live Link](https://techie-emma.netlify.app/)
 
 ## Getting Started
 

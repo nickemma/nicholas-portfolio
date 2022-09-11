@@ -11,18 +11,21 @@ const Hero = () => {
       <div className={`${classes.box_container}`}>
         <div className={`${classes.content}`}>
           <SectionSubtitle subtitle="hi there" />
-          <h3>I&apos;M nicholas emmanuel</h3>
-          <h5>full-stack developer</h5>
+          <h3>
+            I&apos;M NICHOLAS <br />
+            EMMANUEL
+          </h3>
+          <h5>Full-Stack Developer</h5>
           <p>
             Techie Emma. Building LazyCoders.Io - Learn To Code And Connect With
             The Best Minds.
           </p>
           <div className={`${classes.btn}`}>
             <button type="button" className={`${classes.btn_primary}`}>
-              <Link href="#">hire me</Link>
+              <Link href="#">Hire me</Link>
             </button>
             <button type="button" className={`${classes.btn_secondary}`}>
-              <Link href="#">download CV</Link>
+              <Link href="#">Download CV</Link>
             </button>
           </div>
         </div>
@@ -34,7 +37,7 @@ const Hero = () => {
             </span>
             <div className={`${classes.expert}`}>
               <h4>1 years</h4>
-              <h5>experience</h5>
+              <h5>Experience</h5>
             </div>
           </div>
         </div>

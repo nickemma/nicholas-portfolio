@@ -82,6 +82,10 @@
     text-align: left;
     align-items: flex-start;
   }
+  .icons {
+    flex-direction: column;
+    gap: 4rem;
+  }
   .content_service {
     margin-left: 0;
   }
@@ -89,10 +93,9 @@
   .content_service h3 {
     font-size: 2.5rem;
   }
-
   .content_service p {
     font-size: 2rem;
     line-height: 30px;
-    width: 80%;
+    width: 90%;
   }
 }

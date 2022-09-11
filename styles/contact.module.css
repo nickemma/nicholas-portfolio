@@ -61,12 +61,19 @@
   cursor: pointer;
 }
 
+.social_links a {
+  color: #808dad;
+}
+
 .social_links i {
   font-size: 3rem;
   font-weight: 500;
   padding: 5px 6px;
 }
-
+.social_links a:hover {
+  color: var(--green);
+  transform: translateY(-10px);
+}
 .social_links i:hover {
   color: var(--green);
   transform: translateY(-10px);

@@ -10,44 +10,49 @@ const Contact = () => {
       <div className={`${classes.row}`}>
         <div className={`${classes.col}`}>
           <SectionSubtitle subtitle="Contact me" />
-          <h3>Contact with me</h3>
+          <h3>Let's do it together</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            beatae ratione iusto cum. Doloremque suscipit eius provident error
-            labore est reprehenderit, exercitationem corrupti earum deleniti!
+            Question, comment or concern? this contact form is the best way to
+            get in touch with me.
           </p>
           <ul className={`${classes.contact_info}`}>
             <li className={`${classes.info_item}`}>
               <span>
                 <i className="ri-map-pin-line"></i>
               </span>
-              <p>Sylhet - Bangladesh</p>
+              <p>Lagos - Nigeria</p>
             </li>
             <li className={`${classes.info_item}`}>
               <span>
                 <i className="ri-mail-line"></i>
               </span>
-              <p>muhib5532@gmail.com</p>
+              <p>nicholasemmanuel321@gmail.com</p>
             </li>
             <li className={`${classes.info_item}`}>
               <span>
                 <i className="ri-phone-line"></i>
               </span>
-              <p>+088123456789</p>
+              <p>+2349163198026</p>
             </li>
           </ul>
           <div className={`${classes.social_links}`}>
-            <Link href="#">
-              <i className="ri-twitter-line"></i>
+            <Link href="https://twitter.com/techieEmma">
+              <a target="_blank">
+                <i className="ri-twitter-line"></i>
+              </a>
             </Link>
-            <Link href="#">
-              <i className="ri-github-line"></i>
+            <Link href="https://github.com/NickEmma">
+              <a target="_blank">
+                <i className="ri-github-line"></i>
+              </a>
             </Link>
             <Link href="#">
               <i className="ri-facebook-line"></i>
             </Link>
-            <Link href="#">
-              <i className="ri-linkedin-line"></i>
+            <Link href="https://www.linkedin.com/in/techieemma/">
+              <a target="_blank">
+                <i className="ri-linkedin-line"></i>
+              </a>
             </Link>
             <Link href="#">
               <i className="ri-instagram-line"></i>

@@ -11,7 +11,7 @@ const Hero = () => {
       <div className={`${classes.box_container}`}>
         <div className={`${classes.content}`}>
           <SectionSubtitle subtitle="hi there" />
-          <h3>I'M nicholas emmanuel</h3>
+          <h3>I&apos;M nicholas emmanuel</h3>
           <h5>full-stack developer</h5>
           <p>
             Techie Emma. Building LazyCoders.Io - Learn To Code And Connect With

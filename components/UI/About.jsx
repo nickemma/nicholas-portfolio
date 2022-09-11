@@ -18,10 +18,10 @@ const About = () => {
           <h3>I&apos;m here</h3>
           <h3>to help your next project</h3>
           <p>
-            I'm Nicholas Emmanuel a software developer specialized in different
-            technologies, Building web applications, Mobile apps and beautiful
-            websites for companies. Love digging into hard problems, learning
-            new languages and technologies.
+            I&apos;m Nicholas Emmanuel a software developer specialized in
+            different technologies, Building web applications, Mobile apps and
+            beautiful websites for companies. Love digging into hard problems,
+            learning new languages and technologies.
           </p>
           <h4>
             languages and <span>frameworks</span>

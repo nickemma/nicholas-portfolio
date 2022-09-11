@@ -15,13 +15,13 @@ const PortfolioItem = (props) => {
             <Link href={liveUrl}>
               <a target="_blank">Live Demo</a>
             </Link>
-            <i class="ri-external-link-line"></i>
+            <i className="ri-external-link-line"></i>
           </button>
           <button type="button" className={`${classes.portfolio_btn}`}>
             <Link href={source}>
               <a target="_blank">Source Code</a>
             </Link>
-            <i class="ri-github-line"></i>
+            <i className="ri-github-line"></i>
           </button>
         </div>
         {keyword.map((item, index) => (

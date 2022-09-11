@@ -31,8 +31,8 @@ const Services = () => {
           <h3>Better Design,</h3>
           <h3>Better Experience</h3>
           <p>
-            I'm Building scalable web applications, Mobile apps and beautiful
-            websites for companies.
+            I&apos;m Building scalable web applications, Mobile apps and
+            beautiful websites for companies.
           </p>
         </div>
       </div>

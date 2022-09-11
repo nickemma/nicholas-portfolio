@@ -125,7 +125,7 @@ const portfolio = [
     liveUrl: 'https://myrage.netlify.app/',
     source: 'https://github.com/NickEmma/myrage-app',
     keyword: ['React', 'Coin-API', 'CSS'],
-    img: '/images/project10.png',
+    img: '/images/project11.png',
     category: 'Full Stack App',
   },
 ];

@@ -10,7 +10,7 @@ const Contact = () => {
       <div className={`${classes.row}`}>
         <div className={`${classes.col}`}>
           <SectionSubtitle subtitle="Contact me" />
-          <h3>Let's do it together</h3>
+          <h3>Let&apos;s do it together</h3>
           <p>
             Question, comment or concern? this contact form is the best way to
             get in touch with me.

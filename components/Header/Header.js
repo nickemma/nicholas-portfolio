@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import classes from './header.module.css';
 import Link from 'next/link';
 
@@ -25,6 +26,12 @@ const NAV_LINKS = [
 ];
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className={`${classes.header}`}>
       <div className={`${classes.logo}`}>
@@ -32,9 +39,15 @@ const Header = () => {
           <span>techie</span>Emma
         </h2>
       </div>
-      <ul className={`${classes.nav_menu}`}>
+      <ul
+        className={
+          isOpen
+            ? `${classes.nav_menu} ${classes.active}`
+            : `${classes.nav_menu}`
+        }
+      >
         {NAV_LINKS.map((items, index) => (
-          <li key={index}>
+          <li key={index} onClick={handleClick}>
             <Link href={items.path}>{items.display}</Link>
           </li>
         ))}
@@ -43,7 +56,7 @@ const Header = () => {
         </div>
       </ul>
       <span className={`${classes.mobile_menu}`}>
-        <i className="ri-menu-line"></i>
+        <i className="ri-menu-line" onClick={handleClick}></i>
       </span>
     </header>
   );

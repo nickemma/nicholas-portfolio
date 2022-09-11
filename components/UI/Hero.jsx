@@ -14,9 +14,8 @@ const Hero = () => {
           <h3>I'M nicholas emmanuel</h3>
           <h5>full-stack developer</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-            dolores ut eaque nulla perspiciatis voluptatibus obcaecati aliquid
-            pariatur.
+            Techie Emma. Building LazyCoders.Io - Learn To Code And Connect With
+            The Best Minds.
           </p>
           <div className={`${classes.btn}`}>
             <button type="button" className={`${classes.btn_primary}`}>
@@ -31,7 +30,7 @@ const Hero = () => {
           <Image src={heroImg} alt="awesome" width="500" height="500" />
           <div className={`${classes.skills}`}>
             <span>
-              <i class="ri-lightbulb-flash-line"></i>
+              <i className="ri-lightbulb-flash-line"></i>
             </span>
             <div className={`${classes.expert}`}>
               <h4>1 years</h4>

@@ -77,11 +77,11 @@
     right: 0;
     background: #171f3897;
     flex-direction: column;
-    /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     min-height: 70vh;
   }
   .nav_menu.active {
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
   .nav_menu a {
     display: block;

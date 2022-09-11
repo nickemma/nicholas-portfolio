@@ -5,7 +5,7 @@ import classes from '../../styles/about.module.css';
 import Image from 'next/image';
 
 import img01 from '../../public/images/image1.png';
-import img02 from '../../public/images/image2.jpg';
+import img02 from '../../public/images/image2.png';
 import img03 from '../../public/images/image3.jpg';
 import img04 from '../../public/images/image4.jpg';
 
@@ -25,7 +25,7 @@ const About = () => {
             cum excepturi beatae.
           </p>
           <h4>
-            languages and <span>framework</span>{' '}
+            languages <span>frameworks</span> and tools{' '}
           </h4>
           <div className={`${classes.icon}`}>
             <div className={`${classes.box}`}>
@@ -47,8 +47,46 @@ const About = () => {
                 </span>
                 Problem Solving
               </h5>
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                Problem Solving
+              </h5>
             </div>
             <div className={`${classes.box}`}>
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                Creative Idea
+              </h5>
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                Creative Idea
+              </h5>
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                Creative Idea
+              </h5>
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                Creative Idea
+              </h5>
+            </div>
+            <div className={`${classes.box}`}>
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                Creative Idea
+              </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>

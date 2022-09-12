@@ -36,7 +36,7 @@ const Hero = () => {
               <i className="ri-lightbulb-flash-line"></i>
             </span>
             <div className={`${classes.expert}`}>
-              <h4>1 years</h4>
+              <h4>1 year</h4>
               <h5>Experience</h5>
             </div>
           </div>

@@ -10,7 +10,7 @@ const Hero = () => {
     <section className={`${classes.hero}`}>
       <div className={`${classes.box_container}`}>
         <div className={`${classes.content}`}>
-          <SectionSubtitle subtitle="hi there" />
+          <SectionSubtitle subtitle="Hi There" />
           <h3>
             I&apos;M NICHOLAS <br />
             EMMANUEL

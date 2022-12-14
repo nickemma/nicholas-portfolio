@@ -52,6 +52,12 @@ const About = () => {
                 </span>
                 Javascript
               </h5>
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                Typescript
+              </h5>
             </div>
             <div className={`${classes.box}`}>
               <h5>
@@ -64,7 +70,7 @@ const About = () => {
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                HTML/SCSS
+                TailwindCSS/SCSS
               </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
@@ -77,6 +83,12 @@ const About = () => {
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
                 Redux
+              </h5>
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                NodeJS/ExpressJS
               </h5>
             </div>
           </div>

@@ -4,6 +4,7 @@ import Hero from '../components/UI/Hero';
 import Portfolio from '../components/UI/Portfolio';
 import Services from '../components/UI/Services';
 import Head from 'next/head';
+import Testimonials from '../components/UI/Testimonials';
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <About />
       <Portfolio />
+      <Testimonials />
       <Contact />
     </>
   );

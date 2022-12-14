@@ -17,7 +17,7 @@ const Portfolio = () => {
       setData(filteredData);
     }
 
-    if (filter === 'Backend App') {
+    if (filter === 'UI/UX Design') {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -50,10 +50,10 @@ const Portfolio = () => {
             Frontend App
           </button>
           <button
-            className={`${filter === 'Backend App' ? active : ''}`}
-            onClick={() => setFilter('Backend App')}
+            className={`${filter === 'UI/UX Design' ? active : ''}`}
+            onClick={() => setFilter('UI/UX Design')}
           >
-            Backend App
+            UI/UX Design
           </button>
           <button
             className={`${filter === 'Full Stack App' ? active : ''}`}

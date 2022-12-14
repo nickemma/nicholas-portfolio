@@ -20,6 +20,10 @@ const NAV_LINKS = [
     display: 'Portfolio',
   },
   {
+    path: '#testimonials',
+    display: 'Testimonials',
+  },
+  {
     path: '#contact',
     display: 'Contact',
   },

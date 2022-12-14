@@ -31,7 +31,7 @@ const PortfolioItem = (props) => {
         ))}
       </div>
       <div className={`${classes.portfolio_img}`}>
-        <Image alt="portfolio-img" src={img} width="400" height="250" />
+        <img src={img} width="400" height="250" alt="portfolio-img" />
       </div>
     </div>
   );

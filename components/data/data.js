@@ -19,7 +19,7 @@ const portfolio = [
     liveUrl: 'https://nickemma.github.io/capstone-project-kanban/',
     source: 'https://github.com/NickEmma/capstone-project-kanban',
     keyword: ['Javascript', 'Css', 'api', 'webpack'],
-    img: '/images/project7.png',
+    img: '/images/project2.png',
     category: 'Frontend App',
   },
 
@@ -31,7 +31,7 @@ const portfolio = [
     liveUrl: 'https://microverse-lazy-coders-qxgn3jsxr-nickemma.vercel.app/',
     source: 'https://github.com/NickEmma/microverse-lazy-coders',
     keyword: ['React', 'AOS Animation', 'CSS'],
-    img: '/images/project4.png',
+    img: '/images/project3.png',
     category: 'Frontend App',
   },
 
@@ -43,7 +43,7 @@ const portfolio = [
     liveUrl: 'https://techieemma-math-magician.netlify.app/',
     source: 'https://github.com/NickEmma/math-magician',
     keyword: ['React', 'GitFlow', 'CSS', 'Testing'],
-    img: '/images/project5.png',
+    img: '/images/project4.png',
     category: 'Frontend App',
   },
 
@@ -55,7 +55,7 @@ const portfolio = [
     liveUrl: 'https://instagram-lazy-coders.netlify.app/',
     source: 'https://github.com/NickEmma/instagram-clone',
     keyword: ['React', 'CSS', 'DexieJS', 'LocalStorage'],
-    img: '/images/project9.png',
+    img: '/images/project5.png',
     category: 'UI/UX Design',
   },
 
@@ -67,7 +67,7 @@ const portfolio = [
     liveUrl: 'https://country-metrics.netlify.app/',
     source: 'https://github.com/NickEmma/country-app-metrics',
     keyword: ['React', 'Redux', 'SCSS', 'Restful-API'],
-    img: '/images/project10.png',
+    img: '/images/project6.png',
     category: 'UI/UX Design',
   },
   {
@@ -78,7 +78,7 @@ const portfolio = [
     liveUrl: 'https://myrage.netlify.app/',
     source: 'https://github.com/NickEmma/myrage-app',
     keyword: ['React', 'Coin-API', 'CSS'],
-    img: '/images/project11.png',
+    img: '/images/project7.png',
     category: 'UI/UX Design',
   },
 
@@ -90,7 +90,7 @@ const portfolio = [
     liveUrl: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
     source: 'https://github.com/NickEmma/car-rental-app',
     keyword: ['React', 'Redux', 'tailwindCSS', 'Restful-API'],
-    img: '/images/project2.png',
+    img: '/images/project8.png',
     category: 'Full Stack App',
   },
 
@@ -102,7 +102,7 @@ const portfolio = [
     liveUrl: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
     source: 'https://github.com/NickEmma/car-rental-app',
     keyword: ['React', 'Redux', 'tailwindCSS', 'Restful-API'],
-    img: '/images/project2.png',
+    img: '/images/project8.png',
     category: 'Full Stack App',
   },
 ];

@@ -107,4 +107,54 @@ const portfolio = [
   },
 ];
 
+export const data = [
+  {
+    image: '/images/avatar4.png',
+    name: 'Htet Naing',
+    testimony:
+      "Nicholas is exactly the sort of software developer any company would love. He has a great way of simplifying complex problems into bite-sized pieces, and as a junior developer, that was really valuable for me. He is also just a fun person to chat with! If you need to get a job done simply and efficiently, Nicholas's definitely the person for you ",
+  },
+  {
+    image: '/images/avatar7.png',
+    name: 'Said Laasri',
+    testimony:
+      'I highly recommend Nicholas. Nicholas is amazing at his job! He knows his way around people, he is good with the students and colleagues, does whatever it takes to help others, and gets things done. He makes sure that everyone is on the same page and focused on the main goal. I learned how to use sass from Nicholas.',
+  },
+  {
+    image: '/images/avatar1.png',
+
+    name: 'Elizabeth Ojesanmi',
+    testimony:
+      'Nicholas is someone I have worked with several times and I can say, he is a terrific collaborator. What I liked the most was his ability to learn fast by understanding each concept, his attention to detail, and his leadership and too courageous when working on a project that requires a lot of involvement, and high productivity. He is a great team player and I would recommend him to any team.',
+  },
+  {
+    image: '/images/avatar3.jpg',
+
+    name: 'Silvia Tofana',
+    testimony:
+      "Nicholas Emmanuel is one of the brightest software developers I've ever met. I worked alongside him from the very beginning of my web development journey. During that time he proved his commitment and determination over and over again. His attention to detail is evident in all of the projects. He's also genuinely a kind, encouraging person, and kept me from falling into bug blues multiple times.",
+  },
+  {
+    image: '/images/avatar6.png',
+
+    name: 'Abdelmajid Oumer',
+    testimony:
+      'I have the opportunity to meet and work with Nicholas Emmanuel as student at Microverse. We worked in a fast paced environment, learning while building together. From the moment we met, I noticed that he is an amazing developer. He is incredible. He always works with a great attitude and always willing to share his thoughts and knowledge with teammates. He will be a great asset to any development that wants to welcome him onboard.',
+  },
+  {
+    image: '/images/avatar2.jpg',
+
+    name: 'Aleksandra Ujvari',
+    testimony:
+      'I had the pleasure of working with Nicolas on several pair programming projects. He has a commendable work ethic, always arrives on time, and is ready to work. I was also impressed with his technical skills, especially in redux/react and ruby ​​on rails. His willingness to share knowledge and learn makes him a good and effective team player. He is a good communicator, reliable, and fun to work with',
+  },
+  {
+    image: '/images/avatar5.png',
+
+    name: 'Okoye Charles',
+    testimony:
+      "Nicholas is an excellent developer, his approach to technical problems is incredible. Nicholas is a developer that every company wants to have on their team. He has been a great teammate and he is also always ready to help. If you are looking for a developer with both outstanding technical and soft skills, don't hesitate to contact him.",
+  },
+];
+
 export default portfolio;

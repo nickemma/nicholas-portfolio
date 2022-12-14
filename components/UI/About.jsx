@@ -94,10 +94,7 @@ const About = () => {
           </div>
           <div className={`${classes.btn}`}>
             <button type="button" className={`${classes.btn_primary}`}>
-              <Link href="#">my portfolio</Link>
-            </button>
-            <button type="button" className={`${classes.btn_secondary}`}>
-              <Link href="#">download CV</Link>
+              <Link href="#">My Resume</Link>
             </button>
           </div>
         </div>

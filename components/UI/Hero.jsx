@@ -3,7 +3,7 @@ import classes from '../../styles/hero.module.css';
 import SectionSubtitle from './SectionSubtitle';
 import Image from 'next/image';
 import Link from 'next/link';
-import heroImg from '../../public/images/hero.png';
+import heroImg from '../../public/images/hero.webp';
 
 const Hero = () => {
   return (
@@ -36,7 +36,7 @@ const Hero = () => {
               <i className="ri-lightbulb-flash-line"></i>
             </span>
             <div className={`${classes.expert}`}>
-              <h4>2+ years</h4>
+              <h4>2 years</h4>
               <h5>Experience</h5>
             </div>
           </div>

@@ -102,7 +102,7 @@ const portfolio = [
     liveUrl: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
     source: 'https://github.com/NickEmma/car-rental-app',
     keyword: ['React', 'Redux', 'tailwindCSS', 'Restful-API'],
-    img: 'images/project8.png',
+    img: '/images/project8.png',
     category: 'Full Stack App',
   },
 ];

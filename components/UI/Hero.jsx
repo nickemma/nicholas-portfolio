@@ -19,7 +19,7 @@ const Hero = () => {
           <p>
             I can help you build a product, feature, or website. Look through
             some of my work and experience! If you like what you see and have a
-            project that needs to be coded, don't hesitate to contact me.
+            project that needs to be coded, don&apos;t hesitate to contact me.
           </p>
           <div className={`${classes.btn}`}>
             <button type="button" className={`${classes.btn_primary}`}>

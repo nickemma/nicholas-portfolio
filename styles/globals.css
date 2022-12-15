@@ -2,7 +2,7 @@
 
 :root {
   --bg-color: #0e1630;
-  --text-color: #808dad;
+  --text-color: #fff;
   --green: #01d293;
   --white: #fff;
 }
@@ -14,6 +14,7 @@
   outline: none;
   border: none;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
   list-style: none;
   transition: all 0.3s linear;
 }

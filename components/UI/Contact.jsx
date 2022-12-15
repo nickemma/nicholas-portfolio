@@ -46,16 +46,15 @@ const Contact = () => {
                 <i className="ri-github-line"></i>
               </a>
             </Link>
-            <Link href="#">
-              <i className="ri-facebook-line"></i>
-            </Link>
             <Link href="https://www.linkedin.com/in/techieemma/">
               <a target="_blank">
                 <i className="ri-linkedin-line"></i>
               </a>
             </Link>
-            <Link href="#">
-              <i className="ri-instagram-line"></i>
+            <Link href="https://medium.com/@nicholasemmanuel321">
+              <a target="_blank">
+                <i className="ri-medium-fill"></i>
+              </a>
             </Link>
           </div>
         </div>

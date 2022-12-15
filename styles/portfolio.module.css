@@ -24,10 +24,13 @@
 }
 
 .tab_btn button {
-  background: #171f38;
   color: var(--text-color);
   font-size: 1.7rem;
   margin-left: 20px;
+  background: #171f38;
+  padding: 7px 25px;
+  border: 1px solid var(--green);
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -39,4 +42,14 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
   gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .tab_btn button {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 1.5rem;
+    padding: 5px 15px;
+  }
 }

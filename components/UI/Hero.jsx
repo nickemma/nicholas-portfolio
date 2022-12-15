@@ -15,17 +15,15 @@ const Hero = () => {
             I&apos;M NICHOLAS <br />
             EMMANUEL
           </h3>
-          <h5>Full-Stack Developer</h5>
+          <h5>Software Developer</h5>
           <p>
-            Techie Emma. Building LazyCoders.Io - Learn To Code And Connect With
-            The Best Minds.
+            I can help you build a product, feature, or website. Look through
+            some of my work and experience! If you like what you see and have a
+            project that needs to be coded, don't hesitate to contact me.
           </p>
           <div className={`${classes.btn}`}>
             <button type="button" className={`${classes.btn_primary}`}>
-              <Link href="#">Hire me</Link>
-            </button>
-            <button type="button" className={`${classes.btn_secondary}`}>
-              <Link href="#">Download CV</Link>
+              <Link href="#contact">Hire me</Link>
             </button>
           </div>
         </div>

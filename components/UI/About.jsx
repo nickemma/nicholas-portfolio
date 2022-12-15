@@ -3,6 +3,7 @@ import Link from 'next/link';
 import SectionSubtitle from './SectionSubtitle';
 import classes from '../../styles/about.module.css';
 import Image from 'next/image';
+// import Resume from '../../public/resume/resume.pdf';
 
 import img01 from '../../public/images/image1.png';
 import img02 from '../../public/images/image2.png';
@@ -18,10 +19,10 @@ const About = () => {
           <h3>I&apos;m here</h3>
           <h3>to help your next project</h3>
           <p>
-            I&apos;m Nicholas Emmanuel a software developer specialized in
-            different technologies, Building web applications, Mobile apps and
-            beautiful websites for companies. Love digging into hard problems,
-            learning new languages and technologies.
+            I&apos;m a software developer from Nigeria, specializing in
+            different technologies, Building web applications, Mobile apps, and
+            beautiful websites for companies. I love digging into hard problems
+            and learning new languages and technologies..
           </p>
           <h4>
             languages and <span>frameworks</span>
@@ -91,11 +92,6 @@ const About = () => {
                 NodeJS/ExpressJS
               </h5>
             </div>
-          </div>
-          <div className={`${classes.btn}`}>
-            <button type="button" className={`${classes.btn_primary}`}>
-              <Link href="#">My Resume</Link>
-            </button>
           </div>
         </div>
 

@@ -45,7 +45,11 @@
 
 .portfolio_btn {
   background-color: #171f38;
-  margin: 2rem 0;
+  cursor: pointer;
+  margin: 2px;
+  padding: 5px;
+  border: 1px solid var(--green);
+  border-radius: 5px;
 }
 
 .portfolio_btn a:hover {
@@ -78,7 +82,8 @@
 
 @media (max-width: 600px) {
   .portfolio_img {
-    padding-left: 4rem;
+    padding-left: 1rem;
+    margin-right: 2rem;
   }
   .portfolio_content {
     text-align: center;

@@ -61,17 +61,6 @@
   background: transparent;
 }
 
-.btn_secondary {
-  background: transparent;
-  padding: 7px 25px;
-  text-decoration: underline;
-}
-
-.btn_secondary a {
-  font-size: 1.7rem;
-  color: var(--green);
-}
-
 .image {
   flex: 1 1 45rem;
   position: relative;

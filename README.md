@@ -16,7 +16,7 @@ This is my personal portfolio where I showcase some of my projects I built so fa
 
 ## Click here for live version
 
-- live demo: [Live Link](https://nicholas-portfolio-j74o7c6qv-nickemma.vercel.app/)
+- live demo: [Live Link](https://nicholas-portfolio-7unft85rj-nickemma.vercel.app/)
 
 ## Getting Started
 

@@ -23,7 +23,7 @@
 
 # 📖 Personal Portfolio <a name="about-project"></a>
 
-**Personal Portfolio** This is my personal portfolio where I showcase some of my projects I built so far which I designed myself. Additionally..
+**Personal Portfolio** This is my personal portfolio where I showcase some of my projects I built so far which I designed myself. Additionally.
 
 ## 🛠 Built With <a name="built-with"></a>
 

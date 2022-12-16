@@ -5,15 +5,15 @@ import { useForm, ValidationError } from '@formspree/react';
 import 'aos/dist/aos.css';
 
 const Form = () => {
-  const [state, submitHandler] = useForm('moqbezka');
-  if (state.succeeded) {
-    return <p>Thanks for reaching out</p>;
-  }
-
   useEffect(() => {
     AOS.init({ duration: 1000, easing: 'linear' });
     AOS.refresh();
   }, []);
+
+  const [state, submitHandler] = useForm('moqbezka');
+  if (state.succeeded) {
+    return <p>Thanks for reaching out</p>;
+  }
 
   return (
     <form className={`${classes.form}`} onSubmit={submitHandler}>

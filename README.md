@@ -1,50 +1,101 @@
-# Project Name
+# 📗 Table of Contents
 
-Personal Portfolio
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Exotic Rentals ](#-exotic-rentals--)
+  - [Backend](#backend)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# Description the project.
+# 📖 EPersonal Portfolio <a name="about-project"></a>
 
-This is my personal portfolio where I showcase some of my projects I built so far which I designed myself. Additionally.
+**Personal Portfolio** This is my personal portfolio where I showcase some of my projects I built so far which I designed myself. Additionally..
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
-- React js
-- Next js
-- CSS
-- Aos Animation
-- Remix Icons
+### Tech Stack <a name="tech-stack"></a>
 
-## Click here for live version
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://nextjs.org/">NextJS</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="https://aos.com/">AOS Animations</a></li>
+    <li><a href="https://remixicon.com/">Remix Icon</a></li>
+  </ul>
+</details>
 
-- live demo: [Live Link](https://nicholas-portfolio-j74o7c6qv-nickemma.vercel.app/)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Getting Started
+- [Live Demo Link](https://techie-emma.netlify.app/)
 
-- Clone this repo <https://github.com/NickEmma/nicholas-portfolio>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  ```bash
-  git clone https://github.com/NickEmma/nicholas-portfolio
-  ```
+## 💻 Getting Started <a name="getting-started"></a>
 
-- Navigate to nicholas-portfolio folder/directory
+To get a local copy up and running, follow these steps.
 
-  ```bash
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+ node
+ yarn
+```
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com:NickEmma/nicholas-portfolio.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
   cd nicholas-portfolio
-  ```
+  yarn install
+```
 
-- On the command line, at the project's root, run `npm install` to install app dependencies
+### Usage
 
-- Next, run `npm run dev` which will run the app in the development mode.
+To run the project, execute the following command:
 
-- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+  npm run dev
+```
 
-- ALTERNATIVELY
+### Deployment
 
-  - Just run `npm run build` which will build the project and generate output files into the `build` directory.
+You can deploy this project using:
 
-  - Go to `build` directory and manually open `index.html` to interact with the app
+```sh
+  git push main
+```
 
-## Author
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="author"></a>
 
 👤 **Nicholas Emmanuel**
 
@@ -52,22 +103,38 @@ This is my personal portfolio where I showcase some of my projects I built so fa
 - Twitter: [@techieEmma](https://twitter.com/techieEmma)
 - LinkedIn: [@Nicholas Emmanuel](https://www.linkedin.com/in/techieemma/)
 
-## 🤝 Contributing
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **I will add a feature for a new project.**
+- [ ] **I will add some animations.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-thanks: [issue-link](https://github.com/NickEmma/nicholas-portfolio/issues)
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Microverse
+If you like this project consider giving it a star ⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for giving me the opportunity to work on this project.
+
 - LazyCoders
-- Inspiration
-- etc
+- Coding Partners
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

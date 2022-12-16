@@ -54,10 +54,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-```sh
- node
- yarn
-```
+- live demo: [Live Link](https://nicholas-portfolio-j74o7c6qv-nickemma.vercel.app/)
 
 ### Setup
 

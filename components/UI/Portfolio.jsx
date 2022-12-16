@@ -3,6 +3,8 @@ import SectionSubtitle from './SectionSubtitle';
 import classes from '../../styles/portfolio.module.css';
 import PortfolioItem from './PortfolioItem';
 import portfolioData from '../data/data';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Portfolio = () => {
   const [filter, setFilter] = useState('Frontend App');
@@ -35,9 +37,14 @@ const Portfolio = () => {
 
   const active = `${classes.tab_btn_active}`;
 
+  useEffect(() => {
+    AOS.init({ duration: 2000, easing: 'linear' });
+    AOS.refresh();
+  }, []);
+
   return (
     <section id="portfolio" className={`${classes.portfolio}`}>
-      <div className={`${classes.box_container}`}>
+      <div className={`${classes.box_container}`} data-aos="fade-right">
         <SectionSubtitle subtitle=" My portfolio" />
         <h5>Some of my distinguished works</h5>
       </div>
@@ -46,24 +53,27 @@ const Portfolio = () => {
           <button
             className={` ${filter === 'Frontend App' ? active : ''}`}
             onClick={() => setFilter('Frontend App')}
+            data-aos="fade-left"
           >
             Frontend App
           </button>
           <button
             className={`${filter === 'UI/UX Design' ? active : ''}`}
             onClick={() => setFilter('UI/UX Design')}
+            data-aos="fade-down"
           >
             UI/UX Design
           </button>
           <button
             className={`${filter === 'Full Stack App' ? active : ''}`}
             onClick={() => setFilter('Full Stack App')}
+            data-aos="fade-right"
           >
             Full Stack App
           </button>
         </div>
       </div>
-      <div className={`${classes.rows}`}>
+      <div className={`${classes.rows}`} data-aos="zoom-in">
         {data?.map((item) => (
           <div key={item.id}>
             <PortfolioItem item={item} />

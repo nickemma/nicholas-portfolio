@@ -1,6 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import AOS from 'aos';
 import classes from './header.module.css';
 import Link from 'next/link';
+import 'aos/dist/aos.css';
 
 const NAV_LINKS = [
   {
@@ -35,12 +37,16 @@ const Header = () => {
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
+  useEffect(() => {
+    AOS.init({ duration: 2000, easing: 'linear' });
+    AOS.refresh();
+  }, []);
 
   return (
     <header className={`${classes.header}`}>
       <div className={`${classes.logo}`}>
         <h2>
-          <span>techie</span>Emma
+          <span>Techie</span>Emma
         </h2>
       </div>
       <ul
@@ -55,7 +61,7 @@ const Header = () => {
             <Link href={items.path}>{items.display}</Link>
           </li>
         ))}
-        <div className={`${classes.nav_icon}`}>
+        <div className={`${classes.nav_icon}`} data-aos="fade-left">
           <i className="ri-phone-line"> +2349163198026</i>
         </div>
       </ul>

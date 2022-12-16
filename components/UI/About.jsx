@@ -1,16 +1,19 @@
-import React from 'react';
-import Link from 'next/link';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 import SectionSubtitle from './SectionSubtitle';
 import classes from '../../styles/about.module.css';
 import Image from 'next/image';
-// import Resume from '../../public/resume/resume.pdf';
-
+import 'aos/dist/aos.css';
 import img01 from '../../public/images/image1.png';
 import img02 from '../../public/images/image2.png';
 import img03 from '../../public/images/image3.jpg';
 import img04 from '../../public/images/image4.jpg';
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, easing: 'linear' });
+    AOS.refresh();
+  }, []);
   return (
     <section id="about" className={`${classes.about}`}>
       <div className={`${classes.box_container}`}>
@@ -28,7 +31,11 @@ const About = () => {
             languages and <span>frameworks</span>
           </h4>
           <div className={`${classes.icon}`}>
-            <div className={`${classes.box}`}>
+            <div
+              className={`${classes.box}`}
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
@@ -60,7 +67,11 @@ const About = () => {
                 Typescript
               </h5>
             </div>
-            <div className={`${classes.box}`}>
+            <div
+              className={`${classes.box}`}
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
@@ -97,18 +108,34 @@ const About = () => {
 
         <div className={`${classes.image}`}>
           <div className={`${classes.gallery}`}>
-            <div className={`${classes.item}`}>
+            <div
+              className={`${classes.item}`}
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
               <Image src={img01} alt="about-img" />
             </div>
-            <div className={`${classes.item}`}>
+            <div
+              className={`${classes.item}`}
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <Image src={img02} alt="about-img" />
             </div>
           </div>
           <div className={`${classes.gallery}`}>
-            <div className={`${classes.item}`}>
+            <div
+              className={`${classes.item}`}
+              data-aos="flip-down"
+              data-aos-duration="1500"
+            >
               <Image src={img03} alt="about-img" />
             </div>
-            <div className={`${classes.item}`}>
+            <div
+              className={`${classes.item}`}
+              data-aos="zoom-out"
+              data-aos-duration="1500"
+            >
               <Image src={img04} alt="about-img" />
             </div>
           </div>

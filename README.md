@@ -21,7 +21,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 EPersonal Portfolio <a name="about-project"></a>
+# 📖 Personal Portfolio <a name="about-project"></a>
 
 **Personal Portfolio** This is my personal portfolio where I showcase some of my projects I built so far which I designed myself. Additionally..
 
@@ -53,8 +53,6 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-
-- live demo: [Live Link](https://nicholas-portfolio-j74o7c6qv-nickemma.vercel.app/)
 
 ### Setup
 

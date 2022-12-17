@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 const Form = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, easing: 'linear' });
+    AOS.init({ duration: 1500, easing: 'linear' });
     AOS.refresh();
   }, []);
 
@@ -17,35 +17,19 @@ const Form = () => {
 
   return (
     <form className={`${classes.form}`} onSubmit={submitHandler}>
-      <div
-        className={`${classes.form_group}`}
-        data-aos="fade-left"
-        data-aos-duration="2000"
-      >
+      <div className={`${classes.form_group}`} data-aos="fade-left">
         <input type="text" name="name" placeholder="Your Name" required />
         <ValidationError prefix="TEXT" field="name" errors={state.errors} />
       </div>
-      <div
-        className={`${classes.form_group}`}
-        data-aos="fade-right"
-        data-aos-duration="2000"
-      >
+      <div className={`${classes.form_group}`} data-aos="fade-right">
         <input type="email" name="email" placeholder="Email Address" required />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
-      <div
-        className={`${classes.form_group}`}
-        data-aos="fade-up"
-        data-aos-duration="2000"
-      >
+      <div className={`${classes.form_group}`} data-aos="fade-up">
         <input type="text" name="name" placeholder="subject" required />
         <ValidationError prefix="TEXT" field="name" errors={state.errors} />
       </div>
-      <div
-        className={`${classes.form_group}`}
-        data-aos="fade-down"
-        data-aos-duration="2000"
-      >
+      <div className={`${classes.form_group}`} data-aos="fade-down">
         <textarea
           type="text"
           name="message"
@@ -64,7 +48,6 @@ const Form = () => {
         type="submit"
         disabled={state.submitting}
         data-aos="zoom-in-up"
-        data-aos-duration="1500"
       >
         Send
       </button>

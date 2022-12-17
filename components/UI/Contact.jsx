@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 
 const Contact = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000, easing: 'linear' });
+    AOS.init({ duration: 1500, easing: 'linear' });
     AOS.refresh();
   }, []);
   return (
@@ -18,35 +18,23 @@ const Contact = () => {
           <SectionSubtitle subtitle="Contact me" />
           <h3>Let&apos;s do it together</h3>
           <p>
-            Question, comment or concern? this contact form is the best way to
+            Question, comment or concern? This contact form is the best way to
             get in touch with me.
           </p>
           <ul className={`${classes.contact_info}`}>
-            <li
-              className={`${classes.info_item}`}
-              data-aos="fade-left"
-              data-aos-duration="1500"
-            >
+            <li className={`${classes.info_item}`} data-aos="fade-left">
               <span>
                 <i className="ri-map-pin-line"></i>
               </span>
               <p>Lagos - Nigeria</p>
             </li>
-            <li
-              className={`${classes.info_item}`}
-              data-aos="fade-right"
-              data-aos-duration="1500"
-            >
+            <li className={`${classes.info_item}`} data-aos="fade-right">
               <span>
                 <i className="ri-mail-line"></i>
               </span>
               <p>nicholasemmanuel321@gmail.com</p>
             </li>
-            <li
-              className={`${classes.info_item}`}
-              data-aos="fade-down"
-              data-aos-duration="1500"
-            >
+            <li className={`${classes.info_item}`} data-aos="fade-down">
               <span>
                 <i className="ri-phone-line"></i>
               </span>

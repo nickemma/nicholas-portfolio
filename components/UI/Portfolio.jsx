@@ -38,7 +38,7 @@ const Portfolio = () => {
   const active = `${classes.tab_btn_active}`;
 
   useEffect(() => {
-    AOS.init({ duration: 2000, easing: 'linear' });
+    AOS.init({ duration: 1200, easing: 'linear' });
     AOS.refresh();
   }, []);
 
@@ -46,28 +46,25 @@ const Portfolio = () => {
     <section id="portfolio" className={`${classes.portfolio}`}>
       <div className={`${classes.box_container}`} data-aos="fade-right">
         <SectionSubtitle subtitle=" My portfolio" />
-        <h5>Some of my distinguished works</h5>
+        <h5>Some of my distinguished work</h5>
       </div>
       <div className={`${classes.col_1}`}>
-        <div className={`${classes.tab_btn}`}>
+        <div className={`${classes.tab_btn}`} data-aos="fade-left">
           <button
             className={` ${filter === 'Frontend App' ? active : ''}`}
             onClick={() => setFilter('Frontend App')}
-            data-aos="fade-left"
           >
             Frontend App
           </button>
           <button
             className={`${filter === 'UI/UX Design' ? active : ''}`}
             onClick={() => setFilter('UI/UX Design')}
-            data-aos="fade-down"
           >
             UI/UX Design
           </button>
           <button
             className={`${filter === 'Full Stack App' ? active : ''}`}
             onClick={() => setFilter('Full Stack App')}
-            data-aos="fade-right"
           >
             Full Stack App
           </button>

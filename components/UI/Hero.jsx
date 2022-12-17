@@ -4,7 +4,7 @@ import AOS from 'aos';
 import SectionSubtitle from './SectionSubtitle';
 import Image from 'next/image';
 import Link from 'next/link';
-import heroImg from '../../public/images/hero.webp';
+import heroImg from '../../public/images/hero.png';
 import 'aos/dist/aos.css';
 
 const Hero = () => {
@@ -34,11 +34,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div
-          className={`${classes.image}`}
-          data-aos="fade-right"
-          data-aos-duration="2000"
-        >
+        <div className={`${classes.image}`} data-aos="fade-right">
           <Image src={heroImg} alt="awesome" width="500" height="500" />
           <div className={`${classes.skills}`}>
             <span>

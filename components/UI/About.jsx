@@ -31,11 +31,7 @@ const About = () => {
             languages and <span>frameworks</span>
           </h4>
           <div className={`${classes.icon}`}>
-            <div
-              className={`${classes.box}`}
-              data-aos="fade-left"
-              data-aos-duration="1500"
-            >
+            <div className={`${classes.box}`} data-aos="fade-left">
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
@@ -67,11 +63,7 @@ const About = () => {
                 Typescript
               </h5>
             </div>
-            <div
-              className={`${classes.box}`}
-              data-aos="fade-right"
-              data-aos-duration="1500"
-            >
+            <div className={`${classes.box}`} data-aos="fade-right">
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
@@ -108,34 +100,18 @@ const About = () => {
 
         <div className={`${classes.image}`}>
           <div className={`${classes.gallery}`}>
-            <div
-              className={`${classes.item}`}
-              data-aos="zoom-in"
-              data-aos-duration="1500"
-            >
+            <div className={`${classes.item}`} data-aos="zoom-in">
               <Image src={img01} alt="about-img" />
             </div>
-            <div
-              className={`${classes.item}`}
-              data-aos="fade-left"
-              data-aos-duration="1500"
-            >
+            <div className={`${classes.item}`} data-aos="fade-left">
               <Image src={img02} alt="about-img" />
             </div>
           </div>
           <div className={`${classes.gallery}`}>
-            <div
-              className={`${classes.item}`}
-              data-aos="flip-down"
-              data-aos-duration="1500"
-            >
+            <div className={`${classes.item}`} data-aos="flip-down">
               <Image src={img03} alt="about-img" />
             </div>
-            <div
-              className={`${classes.item}`}
-              data-aos="zoom-out"
-              data-aos-duration="1500"
-            >
+            <div className={`${classes.item}`} data-aos="zoom-out">
               <Image src={img04} alt="about-img" />
             </div>
           </div>

@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 
 const Services = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, easing: 'linear' });
+    AOS.init({ duration: 1500, easing: 'linear' });
     AOS.refresh();
   }, []);
   return (
@@ -34,13 +34,13 @@ const Services = () => {
         </div>
         <div className={`${classes.content_service}`} data-aos="fade-left">
           <SectionSubtitle subtitle="What I do" />
-          <h3 data-aos="flip-left" data-aos-duration="3000">
+          <h3 data-aos="flip-left" data-aos-duration="1500">
             Better Design,
           </h3>
-          <h3 data-aos="fade-down" data-aos-duration="3000">
+          <h3 data-aos="fade-down" data-aos-duration="1500">
             Better Experience
           </h3>
-          <p data-aos="zoom-in" data-aos-duration="3000">
+          <p data-aos="zoom-in" data-aos-duration="1500">
             I&apos;m building scalable web applications, Mobile apps, and
             beautiful websites for companies..
           </p>

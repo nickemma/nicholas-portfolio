@@ -32,6 +32,11 @@ const Hero = () => {
             <button type="button" className={`${classes.btn_primary}`}>
               <Link href="#contact">Hire me</Link>
             </button>
+            <button type="button" className={`${classes.btn_primary}`}>
+              <a href="/Resume.pdf" download>
+                Resume
+              </a>
+            </button>
           </div>
         </div>
         <div className={`${classes.image}`} data-aos="fade-right">

@@ -49,6 +49,7 @@
   border: 1px solid var(--green);
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 2rem;
 }
 
 .btn_primary:hover {

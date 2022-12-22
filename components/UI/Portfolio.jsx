@@ -38,7 +38,7 @@ const Portfolio = () => {
   const active = `${classes.tab_btn_active}`;
 
   useEffect(() => {
-    AOS.init({ duration: 1200, easing: 'linear' });
+    AOS.init({ duration: 1000, easing: 'linear' });
     AOS.refresh();
   }, []);
 

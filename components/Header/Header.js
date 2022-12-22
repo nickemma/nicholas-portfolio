@@ -37,9 +37,18 @@ const Header = () => {
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleScroll = () => {
+    setIsOpen(false);
+  };
+
   useEffect(() => {
-    AOS.init({ duration: 2000, easing: 'linear' });
+    AOS.init({ duration: 1000, easing: 'linear' });
     AOS.refresh();
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   return (

@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 const Form = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500, easing: 'linear' });
+    AOS.init({ duration: 1000, easing: 'linear' });
     AOS.refresh();
   }, []);
 

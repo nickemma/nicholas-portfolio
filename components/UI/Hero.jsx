@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 
 const Hero = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, easing: 'linear' });
+    AOS.init({ duration: 100, easing: 'linear' });
     AOS.refresh();
   }, []);
 

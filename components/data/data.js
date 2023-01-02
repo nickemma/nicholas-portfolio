@@ -89,20 +89,31 @@ const portfolio = [
       'Exotic Rental Car is a car rental agency that primarily serves people who require a temporary vehicle. It allows users to create an account, log in, and book a car for a specific period.',
     liveUrl: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
     source: 'https://github.com/NickEmma/car-rental-app',
-    keyword: ['React', 'Redux', 'tailwindCSS', 'Restful-API'],
+    keyword: ['React', 'Redux', 'tailwind', 'RubyOnRails'],
     img: '/images/projects/project8.png',
     category: 'Full Stack App',
   },
 
   {
     id: '09',
-    title: 'Car Rental App',
+    title: 'Tour Villa App',
     description:
-      'Exotic Rental Car is a car rental agency that primarily serves people who require a temporary vehicle. It allows users to create an account, log in, and book a car for a specific period.',
-    liveUrl: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
-    source: 'https://github.com/NickEmma/car-rental-app',
-    keyword: ['React', 'Redux', 'tailwindCSS', 'Restful-API'],
-    img: '/images/projects/project8.png',
+      'The ultimate destination for luxury living. Our exquisite villas offer the perfect blend of comfort, and our dedicated and friendly team awaits to give you a unique and memorable experience.',
+    liveUrl: 'https://villatour.vercel.app/',
+    source: 'https://github.com/nickemma/Villa-Tour',
+    keyword: ['nextjs', 'mongoDB', 'Nodejs', 'typescript'],
+    img: '/images/projects/project9.png',
+    category: 'Full Stack App',
+  },
+  {
+    id: '09',
+    title: 'Tour Villa App',
+    description:
+      'The ultimate destination for luxury living. Our exquisite villas offer the perfect blend of comfort and style, and our dedicated and friendly team awaits to give you a unique and memorable experience.',
+    liveUrl: 'https://villatour.vercel.app/',
+    source: 'https://github.com/nickemma/Villa-Tour',
+    keyword: ['React', 'Redux', 'Node.js', 'Express.js'],
+    img: '/images/projects/project9.png',
     category: 'Full Stack App',
   },
 ];

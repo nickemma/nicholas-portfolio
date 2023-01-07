@@ -7,9 +7,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--bg-color);
+}
+
+.active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 999;
+  padding: 2rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-color);
 }
 
 .mobile_menu {
@@ -85,7 +96,7 @@
   .nav_menu.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-  
+
   .nav_menu a {
     display: block;
     margin: 2rem;

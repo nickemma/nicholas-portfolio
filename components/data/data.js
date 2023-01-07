@@ -146,6 +146,13 @@ export const data = [
       "Nicholas Emmanuel is one of the brightest software developers I've ever met. I worked alongside him from the very beginning of my web development journey. During that time, he proved his commitment and determination over again and kept me from falling into bug blues multiple times.",
   },
   {
+    image: '/images/avatar8.png',
+
+    name: 'Taheny Belguith',
+    testimony:
+      'Working with Nicholas in a team is always enjoyable as he brings his hard work and creative skills fully. His communication and time management skills are valuable assets that any team would be blessed to have. he is an organized and dedicated developer willing to learn and apply his skills to the best of his ability!.',
+  },
+  {
     image: '/images/avatar6.png',
 
     name: 'Abdelmajid Oumer',

@@ -33,6 +33,7 @@ const NAV_LINKS = [
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scroll, setScroll] = useState(false);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
@@ -51,8 +52,19 @@ const Header = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleShow = () => {
+      if (window.scrollY >= 90) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+    window.addEventListener('scroll', handleShow);
+  }, []);
+
   return (
-    <header className={`${classes.header}`}>
+    <header className={scroll ? `${classes.active}` : `${classes.header}`}>
       <div className={`${classes.logo}`}>
         <h2>
           <span>Techie</span>Emma

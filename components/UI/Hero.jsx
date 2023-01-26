@@ -33,7 +33,7 @@ const Hero = () => {
               <Link href="#contact">Hire me</Link>
             </button>
             <button type="button" className={`${classes.btn_primary}`}>
-              <a href="/Resume.pdf" download>
+              <a href="/Nicholas.pdf" download>
                 Resume
               </a>
             </button>

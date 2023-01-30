@@ -38,7 +38,7 @@ const Contact = () => {
               <span>
                 <i className="ri-phone-line"></i>
               </span>
-              <p>+2349163198026</p>
+              <p>+2349070851385</p>
             </li>
           </ul>
           <div className={`${classes.social_links}`}>

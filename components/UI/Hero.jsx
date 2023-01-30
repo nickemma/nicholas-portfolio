@@ -41,15 +41,6 @@ const Hero = () => {
         </div>
         <div className={`${classes.image}`} data-aos="fade-right">
           <Image src={heroImg} alt="awesome" width="500" height="500" />
-          <div className={`${classes.skills}`}>
-            <span>
-              <i className="ri-lightbulb-flash-line"></i>
-            </span>
-            <div className={`${classes.expert}`}>
-              <h4>2 years</h4>
-              <h5>Experience</h5>
-            </div>
-          </div>
         </div>
       </div>
     </section>

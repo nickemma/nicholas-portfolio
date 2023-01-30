@@ -46,10 +46,6 @@ const Header = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, easing: 'linear' });
     AOS.refresh();
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
   }, []);
 
   useEffect(() => {
@@ -64,7 +60,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={scroll ? `${classes.active}` : `${classes.header}`}>
+    <header className={`${classes.header}`}>
       <div className={`${classes.logo}`}>
         <h2>
           <span>Techie</span>Emma
@@ -82,9 +78,6 @@ const Header = () => {
             <Link href={items.path}>{items.display}</Link>
           </li>
         ))}
-        <div className={`${classes.nav_icon}`} data-aos="fade-left">
-          <i className="ri-phone-line"> +2349163198026</i>
-        </div>
       </ul>
       <span className={`${classes.mobile_menu}`}>
         <i className="ri-menu-line" onClick={handleClick}></i>

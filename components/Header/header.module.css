@@ -7,20 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  padding: 2rem 10%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background: var(--bg-color);
+  z-index: 999;
 }
 
 .mobile_menu {
@@ -73,7 +62,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
   .header {
     padding: 2rem;
   }

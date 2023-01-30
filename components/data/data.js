@@ -1,30 +1,6 @@
 const portfolio = [
   {
     id: '01',
-    title: 'Bookstore App',
-    description:
-      'The Bookstore is a website where the user can display a list of books, add a book by providing a title.',
-    liveUrl: 'https://microverse-bookstore.netlify.app/',
-    source: 'https://github.com/NickEmma/bookstore',
-    keyword: ['React', 'Redux', 'CSS'],
-    img: '/images/projects/project1.png',
-    category: 'Frontend App',
-  },
-
-  {
-    id: '02',
-    title: 'Free To Game App',
-    description:
-      'The project utilizes the Free-To-Game API. API and gets displayed on the cards.',
-    liveUrl: 'https://nickemma.github.io/capstone-project-kanban/',
-    source: 'https://github.com/NickEmma/capstone-project-kanban',
-    keyword: ['Javascript', 'Css', 'api', 'webpack'],
-    img: '/images/projects/project2.png',
-    category: 'Frontend App',
-  },
-
-  {
-    id: '03',
     title: 'Microverse LazyCoders App',
     description:
       'Microverse lazy coders is a website where users can check out mentors and schedule a session with a mentor.',
@@ -36,10 +12,34 @@ const portfolio = [
   },
 
   {
+    id: '02',
+    title: 'Bookstore App',
+    description:
+      'The Bookstore is a website where the user can display a list of books, add a book by providing a title.',
+    liveUrl: 'https://microverse-bookstore.netlify.app/',
+    source: 'https://github.com/NickEmma/bookstore',
+    keyword: ['React', 'Redux', 'CSS'],
+    img: '/images/projects/project1.png',
+    category: 'Frontend App',
+  },
+
+  {
+    id: '03',
+    title: 'Free To Game App',
+    description:
+      'The project utilizes the Free-To-Game API and allows users to like and comment on a specific games.',
+    liveUrl: 'https://nickemma.github.io/capstone-project-kanban/',
+    source: 'https://github.com/NickEmma/capstone-project-kanban',
+    keyword: ['Javascript', 'Css', 'api', 'webpack'],
+    img: '/images/projects/project2.png',
+    category: 'Frontend App',
+  },
+
+  {
     id: '04',
     title: 'Math Magician App',
     description:
-      'Math-Magician" Is a Single Page Application (SPA) that allows users to make simple calculations',
+      'Math-Magician" Is a Single Page Application (SPA) that allows users to make simple calculations and read a random math-related quote.',
     liveUrl: 'https://techieemma-math-magician.netlify.app/',
     source: 'https://github.com/NickEmma/math-magician',
     keyword: ['React', 'GitFlow', 'CSS', 'Testing'],
@@ -49,18 +49,6 @@ const portfolio = [
 
   {
     id: '05',
-    title: 'Instagram Clone',
-    description:
-      'Instagram clone is a pre-built social media app software that users can add, delete, and modify easily in this Instagram clone is simple, easy & seamless',
-    liveUrl: 'https://instagram-lazy-coders.netlify.app/',
-    source: 'https://github.com/NickEmma/instagram-clone',
-    keyword: ['React', 'CSS', 'DexieJS', 'LocalStorage'],
-    img: '/images/projects/project5.png',
-    category: 'UI/UX Design',
-  },
-
-  {
-    id: '06',
     title: 'Country Metrics App',
     description:
       'This web application is built with react and provides statistical insights on Countries around the world and their details.',
@@ -68,10 +56,11 @@ const portfolio = [
     source: 'https://github.com/NickEmma/country-app-metrics',
     keyword: ['React', 'Redux', 'SCSS', 'Restful-API'],
     img: '/images/projects/project6.png',
-    category: 'UI/UX Design',
+    category: 'Frontend App',
   },
+
   {
-    id: '07',
+    id: '06',
     title: 'MyRage App',
     description:
       "MyRage is a web app for all lovers of crypto. It's a Single Page Application (SPA) that users can see the details and changes in real time.",
@@ -79,11 +68,11 @@ const portfolio = [
     source: 'https://github.com/NickEmma/myrage-app',
     keyword: ['React', 'Coin-API', 'CSS'],
     img: '/images/projects/project7.png',
-    category: 'UI/UX Design',
+    category: 'Frontend App',
   },
 
   {
-    id: '08',
+    id: '07',
     title: 'Car Rental App',
     description:
       'Exotic Rental Car is a car rental agency that primarily serves people who require a temporary vehicle. It allows users to create an account, log in, and book a car for a specific period.',
@@ -95,7 +84,7 @@ const portfolio = [
   },
 
   {
-    id: '09',
+    id: '08',
     title: 'Tour Villa App',
     description:
       'The ultimate destination for luxury living. Our exquisite villas offer the perfect blend of comfort, and our dedicated and friendly team awaits to give you a unique and memorable experience.',
@@ -105,15 +94,16 @@ const portfolio = [
     img: '/images/projects/project9.png',
     category: 'Full Stack App',
   },
+
   {
     id: '09',
-    title: 'Tour Villa App',
+    title: 'Instagram Clone',
     description:
-      'The ultimate destination for luxury living. Our exquisite villas offer the perfect blend of comfort and style, and our dedicated and friendly team awaits to give you a unique and memorable experience.',
-    liveUrl: 'https://villatour.vercel.app/',
-    source: 'https://github.com/nickemma/Villa-Tour',
-    keyword: ['React', 'Redux', 'Node.js', 'Express.js'],
-    img: '/images/projects/project9.png',
+      'Instagram clone is a pre-built social media app software that users can add, delete, and modify easily in this Instagram clone is simple, easy & seamless',
+    liveUrl: 'https://instagram-lazy-coders.netlify.app/',
+    source: 'https://github.com/NickEmma/instagram-clone',
+    keyword: ['React', 'CSS', 'DexieJS', 'LocalStorage'],
+    img: '/images/projects/project5.png',
     category: 'Full Stack App',
   },
 ];

@@ -85,7 +85,9 @@
     padding-left: 1rem;
     margin-right: 2rem;
   }
+
   .portfolio_content {
     text-align: center;
+    margin: 0 auto;
   }
 }

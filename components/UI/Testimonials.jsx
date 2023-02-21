@@ -29,9 +29,9 @@ const Testimonials = () => {
           modifier: 6,
           slideShadows: true,
         }}
-        pagination={{
-          clickable: true,
-        }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,

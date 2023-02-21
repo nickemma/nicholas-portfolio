@@ -28,7 +28,7 @@ const About = () => {
             and learning new languages and technologies..
           </p>
           <h4>
-            languages and <span>frameworks</span>
+            Languages and <span>Frameworks</span>
           </h4>
           <div className={`${classes.icon}`}>
             <div className={`${classes.box}`} data-aos="fade-left">

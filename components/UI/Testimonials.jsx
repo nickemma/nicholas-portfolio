@@ -7,9 +7,9 @@ import classes from '../../styles/testimonials.module.css';
 import SectionSubtitle from './SectionSubtitle';
 
 import { data } from '../data/data';
-import SwiperCore, { EffectCoverflow, Pagination } from 'swiper/core';
+import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from 'swiper/core';
 
-SwiperCore.use([EffectCoverflow, Pagination]);
+SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 
 const Testimonials = () => {
   return (
@@ -29,7 +29,13 @@ const Testimonials = () => {
           modifier: 6,
           slideShadows: true,
         }}
-        // pagination={true}
+        pagination={{
+          clickable: true,
+        }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
       >
         {data.map((item, key) => (
           <SwiperSlide key={key} className={`${classes.swiper_slide}`}>
@@ -37,11 +43,7 @@ const Testimonials = () => {
             <div className={`${classes.divide}`}>
               <h3 className={`${classes.text_lead}`}>{item.name}</h3>
               <div className={`${classes.icons}`}>
-                <i className="ri-star-fill"></i>
-                <i className="ri-star-fill"></i>
-                <i className="ri-star-fill"></i>
-                <i className="ri-star-fill"></i>
-                <i className="ri-star-s-line"></i>
+                <h4>{item.location}</h4>
               </div>
             </div>
             <p className={`${classes.text}`}>{item.testimony}</p>

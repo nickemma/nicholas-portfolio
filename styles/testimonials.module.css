@@ -12,6 +12,7 @@
   background: #152b3d;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .swiper_slide img {
@@ -20,6 +21,7 @@
   object-fit: cover;
   border-radius: 0.5rem 0.5rem 0 0;
 }
+
 .text_lead {
   color: #fff;
   font-size: 2rem;
@@ -29,7 +31,7 @@
 .text {
   text-align: center;
   font-size: 1.5rem;
-  padding: 1rem 1rem;
+  padding: 1rem 2.5rem;
   color: #f5f5f5;
 }
 
@@ -40,9 +42,9 @@
   padding: 0 10px;
 }
 
-.icons i {
+.icons h4 {
   color: var(--green);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 

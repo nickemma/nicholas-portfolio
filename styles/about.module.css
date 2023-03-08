@@ -123,14 +123,17 @@
     width: 60rem;
   }
 }
+
 @media (max-width: 600px) {
   .content p {
     font-size: 2rem;
     width: 95%;
   }
+
   .image {
     margin-right: 30px;
     width: 200px;
     gap: 0;
+    display: none;
   }
 }

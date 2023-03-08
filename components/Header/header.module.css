@@ -48,10 +48,6 @@
   color: var(--text-color);
 }
 
-.nav_menu li:nth-child(1) a {
-  color: var(--green);
-}
-
 .nav_menu a:hover {
   color: var(--green);
 }

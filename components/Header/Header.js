@@ -33,6 +33,7 @@ const NAV_LINKS = [
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scroll, setScroll] = useState(false);
 
   const handleClick = () => {
     setIsOpen(!isOpen);

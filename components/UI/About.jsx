@@ -5,9 +5,9 @@ import classes from '../../styles/about.module.css';
 import Image from 'next/image';
 import 'aos/dist/aos.css';
 import img01 from '../../public/images/image1.png';
-import img02 from '../../public/images/image2.png';
-import img03 from '../../public/images/image3.jpg';
-import img04 from '../../public/images/image4.jpg';
+import img02 from '../../public/images/program1.png';
+import img03 from '../../public/images/program2.png';
+import img04 from '../../public/images/program3.png';
 
 const About = () => {
   useEffect(() => {
@@ -36,18 +36,6 @@ const About = () => {
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Ruby
-              </h5>
-              <h5>
-                <span className={`${classes.about_icon}`}>
-                  <i className="ri-checkbox-circle-line"></i>
-                </span>
-                Ruby on Rails
-              </h5>
-              <h5>
-                <span className={`${classes.about_icon}`}>
-                  <i className="ri-checkbox-circle-line"></i>
-                </span>
                 ReactJS
               </h5>
               <h5>
@@ -62,25 +50,37 @@ const About = () => {
                 </span>
                 Typescript
               </h5>
-            </div>
-            <div className={`${classes.box}`} data-aos="fade-right">
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                TailwindCSS
+              </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
                 NextJS
               </h5>
+            </div>
+            <div className={`${classes.box}`} data-aos="fade-right">
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                TailwindCSS/SCSS
+                Ruby on Rails
               </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                Postgresql
+                NodeJS
+              </h5>
+              <h5>
+                <span className={`${classes.about_icon}`}>
+                  <i className="ri-checkbox-circle-line"></i>
+                </span>
+                Python
               </h5>
               <h5>
                 <span className={`${classes.about_icon}`}>
@@ -92,7 +92,7 @@ const About = () => {
                 <span className={`${classes.about_icon}`}>
                   <i className="ri-checkbox-circle-line"></i>
                 </span>
-                NodeJS/ExpressJS
+                GraphQL
               </h5>
             </div>
           </div>

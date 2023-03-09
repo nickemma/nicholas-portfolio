@@ -13,13 +13,13 @@ const portfolio = [
 
   {
     id: '02',
-    title: 'Bookstore App',
+    title: 'Bug-Tracker App',
     description:
-      'The Bookstore is a website where the user can display a list of books, add a book by providing a title.',
-    liveUrl: 'https://microverse-bookstore.netlify.app/',
-    source: 'https://github.com/NickEmma/bookstore',
-    keyword: ['React', 'Redux', 'CSS'],
-    img: '/images/projects/project1.png',
+      'A realtime issue tracking software used by development teams to manage and track bugs, issues, and feature requests.',
+    liveUrl: 'https://buggo.vercel.app/',
+    source: 'https://github.com/okoyecharles/buggo',
+    keyword: ['Next', 'Redux', 'Typescript', 'ExpressJS', 'MongoDB'],
+    img: '/images/projects/project10.png',
     category: 'Frontend App',
   },
 

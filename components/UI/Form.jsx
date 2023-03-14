@@ -12,7 +12,7 @@ const Form = () => {
 
   const [state, submitHandler] = useForm('moqbezka');
   if (state.succeeded) {
-    return <p>Thanks for reaching out</p>;
+    return <p>Thank you! I will get in touch with you, Shortly! </p>;
   }
 
   return (

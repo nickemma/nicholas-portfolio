@@ -4,7 +4,7 @@ import AOS from 'aos';
 import SectionSubtitle from './SectionSubtitle';
 import Image from 'next/image';
 import Link from 'next/link';
-import heroImg from '../../public/images/hero.png';
+import heroImg from '../../public/images/hero.webp';
 import 'aos/dist/aos.css';
 
 const Hero = () => {

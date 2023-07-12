@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className={`${classes.footer}`}>
       <div className={`${classes.copy}`}>
         <p>
-          {year} - developed by <span>Techie</span> Emma | all right reserved
+          {year} - developed by <span>Techie Emma</span> | all right Reserved
         </p>
       </div>
     </footer>

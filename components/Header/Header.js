@@ -3,6 +3,8 @@ import AOS from 'aos';
 import classes from './header.module.css';
 import Link from 'next/link';
 import 'aos/dist/aos.css';
+import Logo from '../../public/images/myLogo1.png';
+import Image from 'next/image';
 
 const NAV_LINKS = [
   {
@@ -58,9 +60,14 @@ const Header = () => {
   return (
     <header className={`${classes.header}`}>
       <div className={`${classes.logo}`}>
-        <h2>
-          <span>Techie</span>Emma
-        </h2>
+        <Image
+          src={Logo}
+          alt="logo"
+          width={180}
+          height={50}
+          objectFit="cover"
+        />
+        <h2>{/* <span>Techie</span>Emma */}</h2>
       </div>
       <ul
         className={

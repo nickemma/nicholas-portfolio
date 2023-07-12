@@ -24,16 +24,6 @@
   color: var(--green);
 }
 
-.logo h2 {
-  font-size: 2.5rem;
-  color: var(--white);
-  font-weight: 400;
-}
-
-.logo span {
-  color: var(--green);
-}
-
 .nav_menu {
   display: flex;
   align-items: center;

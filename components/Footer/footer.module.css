@@ -27,6 +27,8 @@
 
 .copy span {
   color: var(--green);
+  font-weight: 500;
+  font-style: italic;
 }
 
 @media (max-width: 850px) {

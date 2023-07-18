@@ -35,7 +35,7 @@
 }
 
 .portfolio_live a {
-  color: var(--white);
+  color: var(--text-color);
   font-weight: 700;
   margin-left: 10px;
   font-size: 1.8rem;
@@ -65,7 +65,7 @@
 
 .portfolio_keyword {
   padding: 5px 8px;
-  color: var(--white);
+  color: var(--text-color);
   font-weight: lighter;
   background: #808dad68;
   font-size: 1.5rem;

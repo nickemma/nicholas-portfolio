@@ -55,7 +55,7 @@
 }
 
 .content_service h3 {
-  color: var(--white);
+  color: var(--text-color);
   font-size: 3rem;
   margin-bottom: 10px;
   font-weight: 700;

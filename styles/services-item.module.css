@@ -16,7 +16,7 @@
 }
 
 .service_item h5 {
-  color: var(--white);
+  color: var(--text-color);
   font-size: 2rem;
   font-weight: 500;
 }

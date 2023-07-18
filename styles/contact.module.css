@@ -17,7 +17,7 @@
 .col h3 {
   font-size: 3rem;
   margin-bottom: 2rem;
-  color: var(--white);
+  color: var(--text-color);
   font-weight: 500;
 }
 

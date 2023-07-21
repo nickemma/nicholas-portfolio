@@ -14,7 +14,7 @@
 
 .mobile_menu {
   font-size: 3rem;
-  color: var(--white);
+  color: var(--text-color);
   font-weight: 500;
   cursor: pointer;
   display: none;

@@ -19,7 +19,7 @@ const Hero = () => {
         <div className={`${classes.content}`} data-aos="fade-down">
           <SectionSubtitle subtitle="Hi There" />
           <h3>NICHOLAS EMMANUEL</h3>
-          <h5>A Full-stack Dev & Software Engineer</h5>
+          <h5>Full-stack Dev & Software Engineer</h5>
           <p>
             I can help you build a product, feature, or website. Look through
             some of my work and experience! If you like what you see and have a

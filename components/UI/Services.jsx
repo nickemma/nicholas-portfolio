@@ -33,16 +33,15 @@ const Services = () => {
           </div>
         </div>
         <div className={`${classes.content_service}`} data-aos="fade-left">
-          <SectionSubtitle subtitle="What I do" />
+          <SectionSubtitle subtitle="⚙️ What I Do" />
           <h3 data-aos="flip-left" data-aos-duration="1000">
-            Better Design,
+            🌐 Seamless web applications that redefine user experiences.{' '}
           </h3>
           <h3 data-aos="fade-down" data-aos-duration="1000">
-            Better Experience
+            📱 Innovative mobile apps for the on-the-go generation.
           </h3>
           <p data-aos="zoom-in" data-aos-duration="1000">
-            I&apos;m building scalable web applications, Mobile apps, and
-            beautiful websites for companies..
+            🎨 Beautifully designed websites that leave a lasting impression.
           </p>
         </div>
       </div>

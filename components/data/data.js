@@ -8,7 +8,7 @@ const portfolio = [
     source: 'https://github.com/NickEmma/microverse-lazy-coders',
     keyword: ['React', 'AOS Animation', 'CSS'],
     img: '/images/projects/project3.png',
-    category: 'Frontend App',
+    category: 'Full Stack App',
   },
 
   {
@@ -49,13 +49,13 @@ const portfolio = [
 
   {
     id: '05',
-    title: 'Country Metrics App',
+    title: 'Car Rental App',
     description:
-      'This web application is built with react and provides statistical insights on Countries around the world and their details.',
-    liveUrl: 'https://country-metrics.netlify.app/',
-    source: 'https://github.com/NickEmma/country-app-metrics',
-    keyword: ['React', 'Redux', 'SCSS', 'Restful-API'],
-    img: '/images/projects/project6.png',
+      'Exotic Rental Car is a car rental agency that primarily serves people who require a temporary vehicle. It allows users to create an account, log in, and book a car for a specific period.',
+    liveUrl: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
+    source: 'https://github.com/NickEmma/car-rental-app',
+    keyword: ['React', 'Redux', 'tailwind', 'RubyOnRails'],
+    img: '/images/projects/project8.png',
     category: 'Frontend App',
   },
 
@@ -68,21 +68,8 @@ const portfolio = [
     source: 'https://github.com/NickEmma/myrage-app',
     keyword: ['React', 'Coin-API', 'CSS'],
     img: '/images/projects/project7.png',
-    category: 'Frontend App',
-  },
-
-  {
-    id: '07',
-    title: 'Car Rental App',
-    description:
-      'Exotic Rental Car is a car rental agency that primarily serves people who require a temporary vehicle. It allows users to create an account, log in, and book a car for a specific period.',
-    liveUrl: 'https://car-rental-k2ms0rho4-nickemma.vercel.app/',
-    source: 'https://github.com/NickEmma/car-rental-app',
-    keyword: ['React', 'Redux', 'tailwind', 'RubyOnRails'],
-    img: '/images/projects/project8.png',
     category: 'Full Stack App',
   },
-
   {
     id: '08',
     title: 'Tour Villa App',
@@ -92,6 +79,18 @@ const portfolio = [
     source: 'https://github.com/nickemma/Villa-Tour',
     keyword: ['nextjs', 'mongoDB', 'Nodejs', 'typescript'],
     img: '/images/projects/project9.png',
+    category: 'Frontend App',
+  },
+
+  {
+    id: '07',
+    title: 'Country Metrics App',
+    description:
+      'This web application is built with react and provides statistical insights on Countries around the world and their details.',
+    liveUrl: 'https://country-metrics.netlify.app/',
+    source: 'https://github.com/NickEmma/country-app-metrics',
+    keyword: ['React', 'Redux', 'SCSS', 'Restful-API'],
+    img: '/images/projects/project6.png',
     category: 'Full Stack App',
   },
 
@@ -104,7 +103,7 @@ const portfolio = [
     source: 'https://github.com/NickEmma/instagram-clone',
     keyword: ['React', 'CSS', 'DexieJS', 'LocalStorage'],
     img: '/images/projects/project5.png',
-    category: 'Full Stack App',
+    category: 'Frontend App',
   },
 ];
 

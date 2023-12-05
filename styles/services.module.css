@@ -55,16 +55,15 @@
 }
 
 .content_service h3 {
-  color: var(--text-color);
-  font-size: 3rem;
   margin-bottom: 10px;
-  font-weight: 700;
+  color: #dfdddd;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .content_service p {
   font-size: 2rem;
-  color: var(--text-color);
-  line-height: 30px;
+  color: #dfdddd;
 }
 
 /* ============ mobile ============ */

@@ -17,13 +17,15 @@ const Hero = () => {
     <section className={`${classes.hero}`}>
       <div className={`${classes.box_container}`}>
         <div className={`${classes.content}`} data-aos="fade-down">
-          <SectionSubtitle subtitle="Hi There" />
+          <SectionSubtitle subtitle="🚀 Hi There" />
           <h3>NICHOLAS EMMANUEL C.</h3>
-          <h5>A Software Engineer</h5>
+          <h5>A Full-stack Software Engineer</h5>
           <p>
-            I can help you build a product, feature, or website. Look through
-            some of my work and experience! If you like what you see and have a
-            project that needs to be coded, don&apos;t hesitate to contact me.
+            🌟Let&apos;s Turn Your Vision Into Pixels! <br />
+            Feel free to explore my work and join me on this journey of
+            transforming ideas into digital masterpieces.
+            <br /> Adept at learning: Every new language or technology is a
+            chance to expand my repertoire.
           </p>
           <div className={`${classes.btn}`}>
             <button type="button" className={`${classes.btn_primary}`}>

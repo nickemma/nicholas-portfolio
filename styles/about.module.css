@@ -16,7 +16,7 @@
 
 .content h3 {
   color: var(--text-color);
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-bottom: 10px;
   font-weight: 700;
 }
@@ -26,12 +26,11 @@
   color: var(--text-color);
   width: 55rem;
   line-height: 30px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .content h4 {
   color: var(--text-color);
-  text-decoration: underline;
 }
 
 .content h4 span {
@@ -40,16 +39,15 @@
 
 .icon {
   display: flex;
+  flex-direction: column;
   align-items: left;
-  gap: 5rem;
-  margin-bottom: 3rem;
 }
 
 .box h5 {
   font-size: 2rem;
   color: var(--text-color);
   font-weight: lighter;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .about_icon i {

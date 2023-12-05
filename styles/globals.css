@@ -3,7 +3,8 @@
 :root {
   --bg-color: #070a14;
   --green: #01d293;
-  --text-color: #fff;
+  /* --text-color: #fff; */
+  --text-color: #dfdddd;
 }
 
 * {

@@ -34,12 +34,6 @@ const Contact = () => {
               </span>
               <p>nicholasemmanuel321@gmail.com</p>
             </li>
-            <li className={`${classes.info_item}`} data-aos="fade-down">
-              <span>
-                <i className="ri-phone-line"></i>
-              </span>
-              <p>+2349070851385</p>
-            </li>
           </ul>
           <div className={`${classes.social_links}`}>
             <Link href="https://twitter.com/techieEmma">
